@@ -234,7 +234,7 @@ Esta es una ventana modal
 <h3>Ejemplo de formularios</h3>
 <h4>Formulario de login</h4>
 <!--usuario=lapdev%40gmail.com&password=fjfkfkfkf -->
-<form action="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.google.com/gmail/about/signup_complete.html&ved=2ahUKEwif3IuC9aGWAxVQQjABHa_JJi4QFnoECBAQAQ&usg=AOvVaw3neYa0lTRt9uPcoXB88HA1/send?" autocomplete="off" >
+<form action="https://mail.google.com/mail/mu/mp/473/#tl/priority/%5Esmartlabel_personal/send?" autocomplete="off" >
     
     <input type="text" name="user"   id=""
    placeholder="--escriba el usuario--" >
