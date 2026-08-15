@@ -1,4 +1,4 @@
 # PÁGINA WEB INICIAL
 ## Temario
 ### Notas
-<a href="index.html">Enlace principal</a>
+<a href="lapzdev.github.io/index.html">Enlace principal</a>
