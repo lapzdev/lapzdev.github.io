@@ -1,3 +1,249 @@
 # PÁGINA WEB INICIAL
 ## Temario
 ### Notas
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=7,8,edge" />
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+
+<title>prueba</title>
+
+</head>
+<body>
+<h1>CURSO DE HTML</h1>
+<h2 id="inicio">Listado del curso</h2>
+<ul>
+<li><a href="#etiquetas-basicas">Etiquetas basicas</a></li><br />
+<li><a href="#etiquetas-semanticas">Etiquetas semanticas</a></li><br />
+<li><a href="#etiquetas-formateo">Etiquetas de formateo</a></li><br />
+<li><a href="#listas-ordenadas">Listas ordenadas</a></li><br />
+<li><a href="#listas-desordenadas">Listas desordenadas</a></li><br />
+<li><a href="#etiquetas-semanticas-estructurales">Etiquetas semanticas estructurales</a></li><br />
+<li><a href="#tablas">Tablas</a></li><br />
+<li><a href="#enlaces">Enlaces</a></li><br />
+<li><a href="#elementos-interactivos">Elementos interactivos</a></li><br />
+<li><a href="#audio-video">Audio y video</a></li><br />
+<li><a href="#formularios">Formularios</a></li><br />
+<li><a href=""></a></li><br />
+<li><a href=""></a></li><br />
+<li><a href=""></a></li><br />
+<li><a href=""></a></li><br />
+<li><a href=""></a></li><br />
+<li><a href=""></a></li><br />
+
+</ul>
+<br /><hr />
+<h2 id="etiquetas-basicas">Etiquetas basicas</h2>
+<p>
+Este es <b>negrita</b> un parrafo <mark>marcado</mark> H<sub>2</sub>O para probar el programa <i>Italica</i>
+<small>pequeña</small> E=m*C<sup>2</sup>
+</p>
+<a href="#inicio">Ir a inicio </a><br /><hr />
+<h2 id="etiquetas-semanticas">Etiquetas semanticas</h2>
+<p>
+Aqui hay una palabra <strong> Importante</strong>.Hay que hacer <em>enfasis en ella</em>
+</p>
+<blockquote>
+Solo se que no se nada
+</blockquote>
+<cite>Socrates</cite><br /><br /><a href="#inicio">Ir a inicio</a><br />
+<hr />
+
+<h2 id="etiquetas-formateo">Etiquetas de formateo</h2>
+<pre>
+<code>
+&lt;a href="mailto:lapzdev@gmail.com"&gt; Correo electronico &lt;/a&gt;
+</code>
+
+</pre>
+<a href="#inicio">Ir a inicio</a><br />
+<hr />
+<h2 id="listas-ordenadas">Listas ordenadas</h2>
+<ol type="a">
+<li>Primavera</li>
+<li>Verano</li>
+<li>Otoño</li>
+<li>Invierno</li>
+</ol>
+<ol type="I" reversed="yes">
+<li>Primavera</li>
+<li>Verano</li>
+<li>Otoño</li>
+<li>Invierno</li>
+</ol>
+<a href="#inicio">Ir a inicio</a><br />
+<hr />
+<h2 id="listas-desordenadas">Listas desordenadas</h2>
+<ul type="disc">
+<li>CSS</li>
+<li>JAVASCRIPT</li>
+<li>HTML</li>
+<li>JAVA</li>
+</ul>
+<a href="#inicio">Ir a inicio</a><br />
+<hr />
+<h2 id="etiquetas-semanticas-estructurales">Etiquetas semanticas estructurales</h2>
+<header>
+<nav>
+<a href="https://api.whatsapp.com/send?phone=5 5172713&text=Esta es una prueba del editor de codigo del telefono">Whatsapp</a>
+<a href="#">Quienes somos</a>
+<a href="#">Temas</a>
+</nav>
+</header>
+<main>
+<section>
+<article>
+<p>
+Este articulo es de una profundidad metafisica incomparable
+</p>
+</article>
+</section>
+</main>
+<aside>
+
+</aside>
+<footer>
+
+</footer>
+<a href="#inicio">Ir a inicio</a><br />
+<hr />
+<h2 id="listas-definiciones">Listas de definiciones</h2>
+<dl>
+<dt>CSS</dt>
+<dd>Hojas de estilo en cascada (Cascade Styling Sheets)</dd>
+</dl>
+<a href="#inicio">Ir a inicio</a><br />
+<hr />
+<h2 id="tablas">Tablas</h2>
+<table border="1">
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Carnet</th>
+<th>Cargo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alfredo</td>
+<td>73012903228</td>
+<td>Especialista</td>
+</tr>
+<tr>
+<td>Joseman</td>
+<td>73012404228</td>
+<td rowspan="2">Informatico</td>
+</tr>
+<tr>
+<td>Lazaro</td>
+<td>73123002669</td>
+
+</tr>
+</tbody>
+<notfoot>
+<tr>
+<th colspan="3">Estos son datos de trabajo</th>
+</tr>
+</tfoot>
+</table>
+<br />
+<a href="#inicio">Ir a inicio</a><br />
+<hr />
+<!-- Conexión a distintas aplicaciones-->
+<h2 id="enlaces">Enlaces</h2>
+<a href="mailto:lapzdev@gmail.com">Mi correo</a><br /><br />
+<a href="tel:+53 52467372">Mi telefono</a><br />
+<br />
+<a href="https://api.whatsapp.com/">WhatsApp </a><br /><br />
+
+<a href="https://api.whatsapp.com/send?phone=52467372">Mi whatsapp</a><br /><br />
+<a href="https://htmlreference.io" target="_blank "rel="nofollow">Referencia HTML</a><br /><br />
+<a href="https://github.com/lapzdev" target="_blank "rel="nofollow">Mi repositorio</a><br /><br />
+
+
+<a href="#inicio">Ir a inicio</a><br />
+<hr />
+<h2 id="elementos-interactivos">Elementos interactivos</h2>
+
+<details open="yes">
+    <summary>
+<b>Listado</b>
+</summary>
+<p>
+Este es un parrafo para mostrar la utilidad del acorden
+</p>
+<p>
+Este es otro parrafo
+</p>
+</details><br />
+<!-- comentarios -->
+<dialog  class="dialogo" open>
+Esta es una ventana modal
+</dialog>
+<button type="submit">Prueba</button><br /><br /><br />
+<a href="#inicio">Ir a inicio</a><br /><br />
+<br />
+<hr />
+<h2 id="audio-video">Audio y video</h2>
+<audio src="Beauty.mp3" controls loop preload
+>
+    
+</audio><br /><br />
+<video  height="auto" width="200" preload   poster="IMG-20260808-WA0003.jpg" controls autoplay="yes">
+    <source src="Twilight.mp4" type="" media="" />
+</video><br /><br />
+<iframe src="Twilight.mp4" frameborder="1" width="250"height="auto"></iframe><br />
+<a href="#inicio">Ir a inicio</a><br />
+
+<hr />
+<h2 id="formularios">Formularios</h2>
+<h3>Elementos de formulario</h3>
+<input type="text" name="texto" id="" value="" /><br /><br />
+<input type="file"  name="" id="" value="" /><br /><br />
+<input type="file" multiple  name="" id="" value="" /><br /><br />
+
+<input type="submit" name="" id="" value="acepto" /><br /><br />
+<input type="checkbox" name="" id="" value="" /><br /><br />
+<input type="radio" name="" id="" value="" /><br /><br />
+<input type="date" name="" id="" value="" /><br /><br />
+<input type="color" name="" id="" value="" /><br /><br />
+<input type="reset" name="" id="" value="borrar" /><br /><br />
+<input type="email" name="" id="" value="" /><br /><br />
+<input type="hidden" name="idioma" id="" value="es" /><br /><br />
+<input type="number" name="" id="" value="" /><br /><br />
+<input type="tel" name="" id="" value="" /><br /><br />
+<input type="password" name="" id="" value="" /><br /><br />
+<input type="search" name="" id="" value="" /><br /><br />
+
+<textarea name="comentarios" id=comentarios rows="8" cols="30"></textarea>
+<br /><br />
+<select name="lista" id="lista"><option value="1">uno</option>
+<option value="2">dos</option>
+<option value="3">tres</option>
+<option value="4">cuatro</option>
+</select><br /><br />
+<select name="lista2" id="lista2" multiple><option value="1">uno</option>
+<option value="2">dos</option>
+<option value="3">tres</option>
+<option value="4">cuatro</option>
+</select><br /><br />
+<br />
+<input type="text" name="otrotexto" id="" value="esto es solo lectura" readonly disabled=""/><br /><br />
+<h3>Ejemplo de formularios</h3>
+<h4>Formulario de login</h4>
+<!--usuario=lapdev%40gmail.com&password=fjfkfkfkf -->
+<form action="https://lapzdev@gmail.com/" autocomplete="off" >
+    
+    <input type="text" name="usuario"   id=""
+   placeholder="--escriba el usuario--" >
+    <input type="password" name="password"   id="" placeholder="--escriba el password--">
+ <input type="submit" name="" id="">   
+</form><br><br>
+<a href="#inicio">Ir a inicio</a><br />
+
+</body>
+
+</html>
+
