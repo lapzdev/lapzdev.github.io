@@ -197,15 +197,18 @@ Esta es una ventana modal
 <hr />
 <h2 id="formularios">Formularios</h2>
 <h3>Elementos de formulario</h3>
-<input type="text" name="texto" id="" value="" /><br /><br />
+<input type="text" name="texto" id="" value="" required/><br /><br />
 <input type="file"  name="" id="" value="" /><br /><br />
 <input type="file" multiple  name="" id="" value="" /><br /><br />
 
 <input type="submit" name="" id="" value="acepto" /><br /><br />
 <input type="checkbox" name="" id="" value="" /><br /><br />
-<input type="radio" name="" id="" value="" /><br /><br />
-<input type="date" name="" id="" value="" /><br /><br />
-<input type="color" name="" id="" value="" /><br /><br />
+<label for="radio">Radio</label>
+<input type="radio" name="" id="radio" value="" /><br /><br />
+<label for="date">Fecha</label>
+<input type="date" name="" id="date" value="" /><br /><br />
+<label for="color">Color</label>
+<input type="color" name="" id="color" value="" /><br /><br />
 <input type="reset" name="" id="" value="borrar" /><br /><br />
 <input type="email" name="" id="" value="" /><br /><br />
 <input type="hidden" name="idioma" id="" value="es" /><br /><br />
@@ -232,9 +235,9 @@ Esta es una ventana modal
 <h4>Formulario de login</h4>
 <!--usuario=lapdev%40gmail.com&password=fjfkfkfkf -->
 <form action="https://lapzdev@gmail.com/" autocomplete="off" >
-    
-    <input type="text" name="usuario"   id=""
-   placeholder="--escriba el usuario--" >
+ <label for="usuario">usuario</label>   
+    <input type="text" name="usuario"   id="usuario"
+   placeholder="--escriba el usuario--" pattern="^[A-Za-z]+$" title="Este cuadro de texto no acepta números" >
     <input type="password" name="password"   id="" placeholder="--escriba el password--">
  <input type="submit" name="" id="">   
 </form><br><br>
