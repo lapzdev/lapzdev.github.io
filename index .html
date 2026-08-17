@@ -251,12 +251,22 @@ placeholder="--escriba el usuario--" pattern="^[A-Za-z]+$" title="Este cuadro de
 <p>
 Seleccionar el idioma
 </p>
-<select name="idioma" id="">
+<select name="idioma" id="" required>
 <option value="1">español</option>
 <option value="2">inglés</option>
-<option value="3">francés</option>
+<option value="3" selected>francés</option>
 
 </select>
+<h4>Seleccione el lenguaje de programación</h4>
+<label for="javascript">javascript</label>
+<input type="radio" name="lenguaje" id="javascript" value="javascript" />
+<label for="java">java</label>
+<input type="radio" name="lenguaje" id="java" value="java" />
+<label for="python">python</label>
+
+<input type="radio" name="lenguaje" id="python" value="python" />
+
+
 <br><br>
 <input type="submit" name="" id="" value="enviar" /><br>
 <input type="reset" name="" id="" value="cancelar" /><br>
