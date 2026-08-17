@@ -8,6 +8,7 @@
 <title>prueba</title>
 
 </head>
+
 <body>
 <h1>CURSO DE HTML</h1>
 <h2 id="inicio">Listado del curso</h2>
@@ -165,7 +166,7 @@ Este articulo es de una profundidad metafisica incomparable
 <h2 id="elementos-interactivos">Elementos interactivos</h2>
 
 <details open="yes">
-    <summary>
+<summary>
 <b>Listado</b>
 </summary>
 <p>
@@ -176,7 +177,7 @@ Este es otro parrafo
 </p>
 </details><br />
 <!-- comentarios -->
-<dialog  class="dialogo" open>
+<dialog class="dialogo" open>
 Esta es una ventana modal
 </dialog>
 <button type="submit">Prueba</button><br /><br /><br />
@@ -186,10 +187,10 @@ Esta es una ventana modal
 <h2 id="audio-video">Audio y video</h2>
 <audio src="Beauty.mp3" controls loop preload
 >
-    
+
 </audio><br /><br />
-<video  height="auto" width="200" preload   poster="IMG-20260808-WA0003.jpg" controls autoplay="yes">
-    <source src="Twilight.mp4" type="" media="" />
+<video height="auto" width="200" preload poster="IMG-20260808-WA0003.jpg" controls autoplay="yes">
+<source src="Twilight.mp4" type="" media="" />
 </video><br /><br />
 <iframe src="Twilight.mp4" frameborder="1" width="250"height="auto"></iframe><br />
 <a href="#inicio">Ir a inicio</a><br />
@@ -197,9 +198,9 @@ Esta es una ventana modal
 <hr />
 <h2 id="formularios">Formularios</h2>
 <h3>Elementos de formulario</h3>
-<input type="text" name="texto" id="" value="" required/><br /><br />
-<input type="file"  name="" id="" value="" /><br /><br />
-<input type="file" multiple  name="" id="" value="" /><br /><br />
+<input type="text" name="texto" id="" value="" required /><br /><br />
+<input type="file" name="" id="" value="" /><br /><br />
+<input type="file" multiple name="" id="" value="" /><br /><br />
 
 <input type="submit" name="" id="" value="acepto" /><br /><br />
 <input type="checkbox" name="" id="" value="" /><br /><br />
@@ -230,21 +231,33 @@ Esta es una ventana modal
 <option value="4">cuatro</option>
 </select><br /><br />
 <br />
-<input type="text" name="otrotexto" id="" value="esto es solo lectura" readonly disabled=""/><br /><br />
+<input type="text" name="otrotexto" id="" value="esto es solo lectura" readonly disabled="" /><br /><br />
 <h3>Ejemplo de formularios</h3>
 <h4>Formulario de login</h4>
 <!--usuario=lapdev%40gmail.com&password=fjfkfkfkf -->
-<form action="https://lapzdev@gmail.com/" autocomplete="off" >
- <label for="usuario">usuario</label>   
-    <input type="text" name="usuario"   id="usuario"
-   placeholder="--escriba el usuario--" pattern="^[A-Za-z]+$" title="Este cuadro de texto no acepta números"  autocomplete="on">
-    <input type="password" name="password"   id="" placeholder="--escriba el password--">
- <input type="submit" name="" id="">   
-</form><br><br>
+<form action="https://lapzdev@gmail.com/" autocomplete="off">
+<label for="usuario">usuario</label>
+<input type="text" name="usuario" id="usuario"
+placeholder="--escriba el usuario--" pattern="^[A-Za-z]+$" title="Este cuadro de texto no acepta números" autocomplete="on">
+<input type="password" name="password" id="" placeholder="--escriba el password--">
+<input type="submit" name="" id="">
+</form>
+<br><br>
 <a href="#inicio">Ir a inicio</a><br />
+<h4>Selects, checkbox y radios</h4>
+<form action="">
+<p>
+Seleccionar el idioma
+</p>
+<select name="idioma" id="">
+<option value="1">español</option>
+<option value="2">inglés</option>
+<option value="3">francés</option>
+
+</select>
+</form>
 <script type="text/javascript" src='prog.js'>
-    
+
 </script>
-</body>
 
 </html>
