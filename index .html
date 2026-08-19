@@ -5,6 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=7,8,edge" />
 <link rel="stylesheet" href="style.css" type="text/css" media="all" />
 
+<-- Metaetiquetas para seo --></-->
+<link rel="canonical" href="https://lapzdev.github.io/index.html" title="" type="" />
+
 <title>prueba</title>
 
 </head>
@@ -24,8 +27,8 @@
 <li><a href="#elementos-interactivos">Elementos interactivos</a></li><br />
 <li><a href="#audio-video">Audio y video</a></li><br />
 <li><a href="#formularios">Formularios</a></li><br />
-<li><a href=""></a></li><br />
-<li><a href=""></a></li><br />
+<li><a href="data-atribute">Data atributes</a></li><br />
+<li><a href="meta-seo">Metaetiquetas para SEO</a></li><br />
 <li><a href=""></a></li><br />
 <li><a href=""></a></li><br />
 <li><a href=""></a></li><br />
@@ -189,7 +192,7 @@ Esta es una ventana modal
 >
 
 </audio><br /><br />
-<video src="Twilight.mp4" height="auto" width="200" preload poster="IMG-20260808-WA0003.jpg"  controls autoplay >
+<video src="Twilight.mp4" height="auto" width="200" preload poster="IMG-20260808-WA0003.jpg" controls autoplay="yes">
 </video><br /><br />
 <iframe src="notas-marge.md" frameborder="1" width="250"height="auto"></iframe><br />
 <a href="#inicio">Ir a inicio</a><br />
@@ -265,13 +268,35 @@ Seleccionar el idioma
 
 <input type="radio" name="lenguaje" id="python" value="python" /><br><br>
 <h4>Actividades de preferencia</h4>
-<label >Deportes <input type="checkbox" name="deportes"value="deportes"checked></label><br><br>
-<label >Lectura <input type="checkbox" name="lectura"value="lectura"></label><br><br>
-<label >Juegos <input type="checkbox" name="juegos"value="juegos"></label><br><br>
+<label>Deportes <input type="checkbox" name="preferencia-deportes"value="deportes"checked></label><br><br>
+<label>Lectura <input type="checkbox" name="preferencia-lectura"value="lectura"></label><br><br>
+<label>Juegos <input type="checkbox" name="preferencia-juegos"value="juegos"></label><br><br>
+
+<label>Seleccione términos y condiciones<input type="checkbox" name="terminos" required></label><br><br>
 <input type="submit" name="" id="" value="enviar" /><br>
 <input type="reset" name="" id="" value="cancelar" /><br>
 <br>
 </form>
+<h4>Formulario de contactos</h4>
+<form action="https://formsubmit.co/jonmircha@gmail.com" method="post" accept-charset="utf-8">
+<input type="text" name="usuario" placeholder="Nombre del usuario" id=""pattern="^[A-Za-zÑñÁáÉéÍíÓóÚú\s]+$"title="Ponga el nombre del usuario"required> <br>
+<br><br> <input type="email" name="correo" placeholder="Ponga el correo" id=""pattern="^(\w[/./-]?){1,}@[a-z]+[\w]{2,}$"title="Ponga el correo" title="correo inválido" required><br><br>
+<textarea name="comentarios" rows="8" cols="40"required></textarea><br><br>
+<input type="submit" value="enviar">
+
+</form>
+<br><br>
+
+<h2 id="data-atribute">Data atribute</h2><br />
+<!--Los Data atributes están concebidos para una forma de enlazar los datos en javascript. el nombre que se les ponga viene precedido por la palabra data. En: data-id, data-name,etc.-->
+<ul>
+<li data-id="1"data-name="spring">Primavera</li>
+<li data-id="2"data-name="summer">Verano</li>
+<li data-id="3"data-name="autumn">Otoño</li>
+<li data-id="4"data-name="winter">Invierno</li>
+
+</ul><br><br>
+<h2 id="meta-seo">Metaetiquetas para seo</h2>
 <script type="text/javascript" src='prog.js'>
 
 </script>
