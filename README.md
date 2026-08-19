@@ -1,13 +1,11 @@
+<<<<<<<<< Temporary merge branch 1
 # lapzdev.github.io
-
-## PÁGINA WEB INICIAL
-
-### Descripción
-Esto es una prueba.
-
+## Esto es una prueba 
+=========
+# PÁGINA WEB INICIAL
 ## Temario
 
 ### Notas
+### Enlaces 
 <a href="index .html">Enlace principal</a>
-<img src="IMG-20260808-WA0004.jpg" alt="vasilio" width="200" height="auto">
-
+>>>>>>>>> Temporary merge branch 2
