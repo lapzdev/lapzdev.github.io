@@ -19,6 +19,7 @@ h2:target{color: #005;}
 h1{color: orangered;  }
 #box{color: #f50;
     border: 3px;
+    border-style: solid;
 border-color: blue;
 width: 200px;
 height: 200px;
