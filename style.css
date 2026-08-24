@@ -2,6 +2,8 @@
 1) el selector
 2) el bloque de declaraciones 
 atributo:valor*/
+@import url('otro-style.css');
+
 html {
     scroll-behavior: smooth;;
 }
@@ -10,13 +12,14 @@ body {
     background-color:#f005;
     margin: 0;
 }
+
 a {
     margin: 3px;
 }
 h2:target{color: #005;}
 .css-curso {color:#00f;}
-/*    */
-h1{color: orangered; 
+/*  El estilo (style) en línea es el que predomina; le sigue el estilo interno, y el final es el externo  */
+h1{color: red; 
     border: 3px;
     border-color: red;
     border-style: solid;
