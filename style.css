@@ -16,7 +16,11 @@ a {
 h2:target{color: #005;}
 .css-curso {color:#00f;}
 /*    */
-h1{color: orangered;  }
+h1{color: orangered; 
+    border: 3px;
+    border-color: red;
+    border-style: solid;
+}
 #box{color: #f50;
     border: 3px;
     border-style: solid;
