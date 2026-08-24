@@ -2,6 +2,7 @@
 1) el selector
 2) el bloque de declaraciones 
 atributo:valor*/
+/* el @import url() es mala práctica porque es bloqueante a la hora que el navegador lee los documentos*/
 @import url('otro-style.css');
 
 html {
