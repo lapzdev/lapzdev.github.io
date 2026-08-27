@@ -10,14 +10,14 @@ html {
 }
 body {
     
-    background-color:#f005;
+    background-color:white;
     margin: 0;
 }
 
 a {
     margin: 3px;
 }
-h2:target{color: #005;}
+h2:target{color: #f00;}
 .css-curso {color:#00f;}
 /*  El estilo (style) en línea es el que predomina; le sigue el estilo interno, y el final es el externo  */
 h1{color: red; 
@@ -32,6 +32,6 @@ border-color: blue;
 width: 200px;
 height: 200px;
 }
-h2{color: #f00;}
+h2{color: #0f0;}
 #texto{color: #00f;}
 /*  */
