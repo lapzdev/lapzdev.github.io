@@ -2,21 +2,25 @@
 1) el selector
 2) el bloque de declaraciones 
 atributo:valor*/
+/* el @import url() es mala práctica porque es bloqueante a la hora que el navegador lee los documentos*/
+@import url('otro-style.css');
+
 html {
     scroll-behavior: smooth;;
 }
 body {
     
-    background-color:#f005;
-    margin: 0;
+    background-color:white;
+    margin-left: 10px;
 }
+
 a {
     margin: 3px;
 }
-h2:target{color: #005;}
+h2:target{color: #f00;}
 .css-curso {color:#00f;}
-/*    */
-h1{color: orangered; 
+/*  El estilo (style) en línea es el que predomina; le sigue el estilo interno, y el final es el externo  */
+h1{color: red; 
     border: 3px;
     border-color: red;
     border-style: solid;
@@ -28,5 +32,6 @@ border-color: blue;
 width: 200px;
 height: 200px;
 }
-h2{color: #f00;}
+h2{color: #0f0;}
+#texto{color: #00f;}
 /*  */
