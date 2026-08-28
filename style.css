@@ -34,4 +34,7 @@ height: 200px;
 }
 h2{color: #0f0;}
 #texto{color: #00f;}
-/*  */
+/* un ejemplo  con el texto 32.*/
+.texto32{
+    font-size: 32px;
+}
