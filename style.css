@@ -37,4 +37,10 @@ h2{color: #0f0;}
 /* un ejemplo  con el texto 32.*/
 .texto32{
     font-size: 32px;
+    color: yellow;
 }
+#etiquetas-basicas{
+    color: #0f5;
+}
+.bg-blue{background-color: blue;}
+.otro{font-style: ;}
