@@ -6,8 +6,9 @@ atributo:valor*/
 @import url('otro-style.css');
 
 html {
-    scroll-behavior: smooth;;
-}
+/*     scroll-behavior: smooth;;
+ */
+ scroll-behavior: smooth;}
 body {
     
     background-color:white;
@@ -33,7 +34,9 @@ width: 200px;
 height: 200px;
 }
 h2{color: #0f0;}
-#texto{color: #00f;}
+#texto{color: #00f;
+    background-color: #0f0;
+}
 /* un ejemplo  con el texto 32.*/
 .texto32{
     font-size: 32px;
@@ -43,4 +46,18 @@ h2{color: #0f0;}
     color: #0f5;
 }
 .bg-blue{background-color: blue;}
-.otro{font-style: ;}
+.otro{font-style: oblique;}
+.hijos-directos>li{background-color: #0f0;}
+.hijos-descendientes b{
+background-color: #f00 ;
+}
+.hermanos-generales~li{
+    background-color: #f00;
+}
+.hermanos-adyacentes+li{
+        background-color: #f0f;
+
+}
+.selectores-atributos a[href*=""]{
+    
+}
