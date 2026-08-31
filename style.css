@@ -91,3 +91,4 @@ background-color: #f00 ;
 font-style: italic;
 
 }
+*:target{color: #f00;}
