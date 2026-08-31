@@ -87,3 +87,7 @@ background-color: #f00 ;
 .selectores-atributos a[class|="nueva"]{
   font-style: italic;
 }
+.selector-universal{font-family: sans-serif;
+font-style: italic;
+
+}
