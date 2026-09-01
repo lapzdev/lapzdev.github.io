@@ -91,4 +91,21 @@ background-color: #f00 ;
 font-style: italic;
 
 }
-*:target{color: #f00;}
+*:target{color: #f00; }
+.pseudoclases *:required{ border-color: #f00;}
+.pseudoclases *:valid{ border-color: blue;}
+.pseudoclases *::selection{font-size: 50px;}
+.pseudoclases *:invalid{border-color: #f0f;}
+
+a[href^="#inicio"]:active{
+    /* font-style: italic; */
+color: #00f;}
+a[href^="#inicio"]:link{
+    /* font-style: italic; */
+color: #0f0;}
+a[href^="#inicio"]:visited{
+    /* font-style: italic; */
+color: #0ff;}
+a[href^="#inicio"]:hover{
+    /* font-style: italic; */
+color: #f00;}
