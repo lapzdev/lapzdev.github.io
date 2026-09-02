@@ -8,7 +8,10 @@ atributo:valor*/
 html {
 /*     scroll-behavior: smooth;;
  */
- scroll-behavior: smooth;}
+ scroll-behavior: smooth;
+    font-size: 45px;
+}
+*,*::before,*::after{font-size: inherit;}
 body {
     
     background-color:white;
@@ -58,6 +61,33 @@ background-color: #f00 ;
         background-color: #f0f;
 
 }
-.selectores-atributos a[href*=""]{
-    
+/* el comodín (*) aplicará el estilo si contiene el texto en cuestión en cualquier parte.*/
+.selectores-atributos a[href*="jonmircha"]{
+   color: orangered;
+   text-decoration: none;
+}
+/* el comodín (^) aplicará el estilo si contiene el texto en cuestión al principio */
+
+.selectores-atributos a[href^="https"]{
+   color: steelblue;
+}
+/* el símbolo ($) aplicará el estilo si contiene el texto en cuestión al final */
+
+.selectores-atributos a[href$="monios"]{
+   background-color: #0f5;
+}
+/* el símbolo (~) aplicará el estilo si contiene el texto en cuestión en una lista separada por espacios*/
+.selectores-atributos a[href~="cursos"]{
+  background-color: #f00;
+}
+/* el símbolo (|) aplicará el estilo si contiene el texto en cuestión en una lista separada por espacios y que después del texto en cuestión venga un guión medio*/
+.selectores-atributos a[class|="horas"]{
+  font-style: italic;
+}
+.selectores-atributos a[class|="nueva"]{
+  font-style: italic;
+}
+.selector-universal{font-family: sans-serif;
+font-style: italic;
+
 }
