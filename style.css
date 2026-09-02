@@ -96,13 +96,14 @@ font-style: italic;
 .pseudoclases *:valid{ border-color: blue;}
 .pseudoclases *::selection{font-size: 50px;}
 .pseudoclases *:invalid{border-color: #f0f;}
+/* las siguientes pseudoclases link active visited hover necesariamente van en ese orden*/
+a[href^="#inicio"]:link{
+    /* font-style: italic; */
+color: #0f0;}
 
 a[href^="#inicio"]:active{
     /* font-style: italic; */
 color: #00f;}
-a[href^="#inicio"]:link{
-    /* font-style: italic; */
-color: #0f0;}
 a[href^="#inicio"]:visited{
     /* font-style: italic; */
 color: #0ff;}
