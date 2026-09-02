@@ -109,3 +109,9 @@ color: #0ff;}
 a[href^="#inicio"]:hover{
     /* font-style: italic; */
 color: #f00;}
+.pseudoclases *:focus{
+    background-color: steelblue;
+}
+a[href^="#inicio"]{
+    /* font-style: italic; */
+text-decoration: none;}
