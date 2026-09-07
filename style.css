@@ -91,7 +91,8 @@ background-color: #f00 ;
 font-style: italic;
 
 }
-*:target{color: #f00; }
+/* pseudoclases */
+article id:target{color: #f00; }
 .pseudoclases *:required{ border-color: #f00;}
 .pseudoclases *:valid{ border-color: blue;}
 .pseudoclases *::selection{font-size: 50px;}
@@ -116,3 +117,24 @@ color: #f00;}
 a[href^="#inicio"]{
     /* font-style: italic; */
 text-decoration: none;}
+/* afecta al primer elemento de la lista li*/
+.list-pseudoclases li:first-child{color: green;
+    
+}
+/* afecta al último elemento de la lista li*/
+
+.list-pseudoclases li:last-child{color: red;
+ }
+ /* afecta al  elemento 3 de la lista li*/
+
+ .list-pseudoclases li:nth-child(3){color: navy;}
+  /* afecta al  elemento 2n(n es el numero de posición de los li) de la lista li. Ej:
+  2n n=1  2n=2*1=2
+  n=2 2n=4
+  n=3 2n=6 */
+ .list-pseudoclases li:nth-child(2n){color: pink;}
+ .list-pseudoclases li:nth-child(2n+1){font-size: 2rem;}
+ /* afecta al  elemento par de la lista li*/
+ .list-pseudoclases li:nth-child(even){background-color: yellow;}
+ /* afecta al  elemento impar de la lista li*/
+ .list-pseudoclases li:nth-child(odd){background-color: green;}
