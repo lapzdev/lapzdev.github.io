@@ -1,0 +1,19 @@
+// Atajos personalizados: Ctrl+Q = añadir la siguiente ocurrencia como multi-cursor
+[
+  {
+    "key": "ctrl+q",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  // Selecciona la ocurrencia anterior (hacia atrás) con Ctrl+Shift+Q
+  {
+    "key": "ctrl+shift+q",
+    "command": "editor.action.addSelectionToPreviousFindMatch",
+    "when": "editorFocus"
+  },
+  // Quita el atajo por defecto Ctrl+D para evitar duplicidad (opcional)
+  {
+    "key": "ctrl+d",
+    "command": "-editor.action.addSelectionToNextFindMatch"
+  }
+]
