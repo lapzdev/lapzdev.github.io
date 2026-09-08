@@ -175,3 +175,26 @@ text-decoration: none;}
       font-size: 3rem;
   }
   .listas-articulo :not(p){color:  red;}
+.emoji::after{
+    content: "😄";
+}
+.emoji::before{
+    content: "💌";
+}
+.pseudoelementos p::first-letter{font-size: 2rem;
+    color: red;
+}
+.pseudoelementos2 p::first-letter{font-size: 2rem;
+    color: blue;
+}
+.pseudoelementos2 p::first-line{font-size: 1.5rem;
+    color: blue;
+}
+/* Este pseudoelemento le define los estilos a la selección, en este caso de todo el documento*/
+*::selection{
+    background-color: black;
+    color: yellow;
+}
+.placeholder::placeholder{
+    color: red;
+}
