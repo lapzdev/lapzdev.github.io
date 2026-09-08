@@ -138,3 +138,40 @@ text-decoration: none;}
  .list-pseudoclases li:nth-child(even){background-color: yellow;}
  /* afecta al  elemento impar de la lista li*/
  .list-pseudoclases li:nth-child(odd){background-color: green;}
+  /* afecta al  elemento primero del tipo p de la lista */
+
+.article p:first-of-type{
+    color: red;
+}
+  /* afecta al  elemento último del tipo p de la lista */
+  .article p:last-of-type{
+      color: blue;
+  }
+  /* afecta al  elemento primero del tipo div de la lista */
+    .article div:first-of-type{
+      color: yellow;
+  }
+  /* afecta al  elemento último del tipo div de la lista */
+    .article div:last-of-type{
+      color: red;
+  }
+
+    .article div:nth-of-type(2){
+      background-color: blue;
+  }
+
+    .article div:nth-of-type(n+1){
+      font-size: 1.5rem;
+  }
+      .article p:nth-of-type(2n+1){
+      font-style: italic;
+  }
+
+      .article p:nth-of-type(even){
+      font-size: 2rem;
+  }
+  /* pseudoclases de negación .(not)*/
+      .article :not(p){
+      font-size: 3rem;
+  }
+  .listas-articulo :not(p){color:  red;}
