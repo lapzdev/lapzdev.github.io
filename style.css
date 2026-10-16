@@ -1,10 +1,63 @@
+/**Una regla css consta de dos partes:
+1) el selector
+2) el bloque de declaraciones 
+atributo:valor*/
+/* el @import url() es mala práctica porque es bloqueante a la hora que el navegador lee los documentos*/
+@import url('otro-style.css');
+
 html {
-    scroll-behavior: smooth;;
-}
+/*     scroll-behavior: smooth;;
+ */
+ scroll-behavior: smooth;}
 body {
-    background-color: aqua;
+    
+    background-color:white;
+    margin-left: 10px;
 }
+
 a {
     margin: 3px;
 }
-h2:target{color:red};
+h2:target{color: #f00;}
+.css-curso {color:#00f;}
+/*  El estilo (style) en línea es el que predomina; le sigue el estilo interno, y el final es el externo  */
+h1{color: red; 
+    border: 3px;
+    border-color: red;
+    border-style: solid;
+}
+#box{color: #f50;
+    border: 3px;
+    border-style: solid;
+border-color: blue;
+width: 200px;
+height: 200px;
+}
+h2{color: #0f0;}
+#texto{color: #00f;
+    background-color: #0f0;
+}
+/* un ejemplo  con el texto 32.*/
+.texto32{
+    font-size: 32px;
+    color: yellow;
+}
+#etiquetas-basicas{
+    color: #0f5;
+}
+.bg-blue{background-color: blue;}
+.otro{font-style: oblique;}
+.hijos-directos>li{background-color: #0f0;}
+.hijos-descendientes b{
+background-color: #f00 ;
+}
+.hermanos-generales~li{
+    background-color: #f00;
+}
+.hermanos-adyacentes+li{
+        background-color: #f0f;
+
+}
+.selectores-atributos a[href*=""]{
+    
+}
